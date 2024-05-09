@@ -17,3 +17,7 @@
  #exit status= $?
  ls -l
  echo exit status-$?
+
+ ## exit status ranges - 0 to 255
+ # exit status-0 means success
+ # exit status -1to255 means failure
