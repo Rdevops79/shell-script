@@ -9,3 +9,11 @@
 
  x=10
  echo x is $x
+
+ ## system special = varaibles
+ # $0 ,$1 ,$2......$n
+ # $# ,$*  ,$?
+
+ #exit status= $?
+ ls -l
+ echo exit status-$?
