@@ -27,3 +27,13 @@
  echo Second Argument - $2
  echo All Arguments - $*
  echo No of Arguments - $#
+
+ ## command subsituation
+# Command substitution
+LS=$(ls)
+
+echo $LS
+
+# Arithmetic substitution
+ADD=$((3+7))
+echo $ADD
