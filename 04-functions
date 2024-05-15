@@ -17,6 +17,7 @@ echo y from function - $y
 
 inputs_function 123 456
 
+ # below one has written at the time of exit or return understand it clearly revanth
 demo() {
   echo Hello
   return 10
